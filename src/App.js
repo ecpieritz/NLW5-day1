@@ -1,6 +1,14 @@
+import Button from './Button.js';
+
 function App() {
-  return (
-    <h1>Hello World!</h1>
+  return(
+    <>
+    <Button>Button 1</Button>
+    <Button>Button 2</Button>
+    <Button>Button 3</Button>
+    <Button>Button 4</Button>
+    <Button>Button 5</Button>
+    </>
   );
 }
 
